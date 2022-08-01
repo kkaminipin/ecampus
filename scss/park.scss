@@ -1,3 +1,32 @@
 .inner {
-    
+    position: relative;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
 }
+
+.header {
+    &_top {
+        padding-top: 12px;
+            .inner {
+                display: flex;
+                justify-content: space-evenly;
+                .user_info {
+                    span {
+                        font-size: 12px;
+                        color: #1e1f21
+                        
+                    }
+                } 
+                .user_select {
+                    
+                .link_area {
+                    ul {
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+}
+    
