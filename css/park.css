@@ -28,5 +28,16 @@
   color: #808080;
   font-size: 14px;
 }
+.header_top .inner .link_area ul li::before {
+  content: "";
+  border-left: 1px solid #808080;
+}
+.header_top .inner .link_area ul li:first-of-type::before {
+  content: none;
+}
+.header_top .inner .link_area ul li:first-of-type {
+  padding-left: 0;
+  margin-left: 0;
+}
 
 /*# sourceMappingURL=park.css.map */

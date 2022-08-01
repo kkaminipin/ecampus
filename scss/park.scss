@@ -32,6 +32,19 @@
                         color: #808080;
                         font-size: 14px;
                     }
+                    li::before {
+                        content:  '';
+                        border-left: 1px solid #808080;    
+                    }
+                    li:first-of-type::before {
+                        content: none;
+                        
+                    }
+                    li:first-of-type {
+                        padding-left: 0;
+                        margin-left: 0;
+                        
+                    }
                     
                 }
             }
