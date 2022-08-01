@@ -106,11 +106,12 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: url(/img/ico_sel.png) no-repeat 95% 50%;
-  min-width: 144px;
+  background: url(/img/arrow_select.png) no-repeat 95% 50%;
+  min-width: 122px;
   vertical-align: middle;
   font-size: 14px;
   color: #808080;
+  cursor: pointer;
 }
 
 select::-ms-expand {

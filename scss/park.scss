@@ -8,25 +8,33 @@
 .header {
     &_top {
         padding-top: 12px;
-            .inner {
-                display: flex;
-                justify-content: space-evenly;
-                .user_info {
-                    span {
-                        font-size: 12px;
-                        color: #1e1f21
-                        
+
+        .inner {
+            display: flex;
+            justify-content: space-evenly;
+
+            .user_info {
+                height: 27px;
+
+                span {
+                    font-size: 12px;
+                    color: #1e1f21;
+                    font-weight: bold;
+                    vertical-align: middle;
+
+                }
+            }
+
+            .link_area {
+                ul {
+                    display: flex;
+                    li {
+                        color: #808080;
+                        font-size: 14px;
                     }
-                } 
-                .user_select {
                     
-                .link_area {
-                    ul {
-                        display: flex;
-                    }
                 }
             }
         }
     }
 }
-    

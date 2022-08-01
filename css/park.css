@@ -12,12 +12,21 @@
   display: flex;
   justify-content: space-evenly;
 }
+.header_top .inner .user_info {
+  height: 27px;
+}
 .header_top .inner .user_info span {
   font-size: 12px;
   color: #1e1f21;
+  font-weight: bold;
+  vertical-align: middle;
 }
-.header_top .inner .user_select .link_area ul {
+.header_top .inner .link_area ul {
   display: flex;
+}
+.header_top .inner .link_area ul li {
+  color: #808080;
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=park.css.map */
