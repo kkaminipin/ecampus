@@ -105,7 +105,22 @@
         }
 
     }
+}
 
+.thum_cont {
+    text-align: center;
+
+    h1 {
+        font-size: 25.5px;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 12.5px;
+        color: #fff;
+        margin-top: 12px;
+    }
 }
 
 .header {
@@ -259,6 +274,7 @@
                                 font-weight: 600;
                             }
                         }
+
                         &_2 {
                             padding: 21px 35px 30px 29px;
                             width: 352px;
@@ -378,6 +394,7 @@
                                     padding: 10px 0 10px 0;
                                     position: relative;
                                 }
+
                                 .new_cont::after {
                                     content: "N";
                                     position: absolute;
@@ -389,7 +406,7 @@
                                     line-height: 15px;
                                     padding-right: 0;
                                     background-color: #f33;
-                                    font-family: NanumSquare,sans-serif;
+                                    font-family: NanumSquare, sans-serif;
                                     font-weight: 800;
                                     font-size: 1.2rem;
                                     color: #fff;
@@ -397,11 +414,13 @@
                                     text-align: center;
                                 }
                             }
+
                             li::before {
                                 content: '';
                                 display: block;
                                 border-bottom: 1px solid #ededed;
                             }
+
                             li:first-of-type::before {
                                 content: none;
                             }
@@ -411,6 +430,7 @@
             }
         }
     }
+
     .flexArea_01 {
         display: flex;
         justify-content: center;
@@ -419,61 +439,111 @@
         width: 100%;
         min-width: 1200px;
         margin-right: 35px;
+
         .apply {
             width: 530px;
             margin-right: 35px;
         }
+
         .myCourse {
             width: 425px;
         }
+
         .notice {
             width: 530px;
             margin-right: 35px;
         }
+
         .class {
             width: 425px;
         }
     }
+
     .flexArea_02 {
         margin: 37px 0 82px 0;
+
         .thum_area {
             display: flex;
             justify-content: center;
+
             .thum_cont {
                 margin-right: 15px;
+                a {
+                    position: relative;
+                    .txtArea {
+                        &_01 {
+                            position: absolute;
+                            top: 14px;
+                            left: -99px;
+                            p::after {
+                                content: '';
+                                display: block;
+                                border-bottom: 1px solid #fff;
+                                padding-top: 5px;
+                            }
+                        }
+                        &_02 {
+                            position: absolute;
+                            top: 14px;
+                            left: -113px;
+                            p::after {
+                                content: '';
+                                display: block;
+                                border-bottom: 1px solid #fff;
+                                padding-top: 5px;
+                            }
+                        }
+                        &_03 {
+                            p {
+                                color: #45515d!important;
+                                font-weight: 600;
+                                position: absolute;
+                                top: 14px;
+                                left: -107px;
+                            }
+                        }
+                    }
+                }
             }
-        }
-        .thum_area div:nth-of-type(3) {
-            margin-right: 0;
+
+            .thum_area div:nth-of-type(3) {
+                margin-right: 0;
+            }
         }
     }
 }
+
 footer {
     padding: 35px 0 40px 0;
     border-top: 1px solid #d0d0d0;
+
     .footer_cont {
         display: flex;
         justify-content: center;
+
         .footer {
             &_left {
                 margin-right: 25px;
             }
+
             &_mid {
                 p {
                     font-size: 12.5px;
                     color: #666;
                     text-align: left;
                 }
+
                 .txt {
                     &_address {
                         margin-bottom: 25px;
                     }
+
                     &_warn {
                         margin-bottom: 25px;
                     }
                 }
             }
         }
-        
+
     }
 }
