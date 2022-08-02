@@ -445,11 +445,33 @@
 
         .apply {
             width: 530px;
+            height: 284px;
+            padding: 23px 35px 35px;
             margin-right: 35px;
+            box-shadow: 0px 3px 0 0 rgba(0, 0, 0, 0.05);
+            border: solid 1px #dcdcdc;
+            .title_plus {
+                padding-bottom: 14px;
+                h3 {
+                    color: #444;
+                }
+            }
         }
 
-        .myCourse {
+        .myCourse { 
             width: 425px;
+            height: 284px;
+            padding: 23px 35px 35px;
+            box-shadow: 0px 3px 0 0 rgba(0, 0, 0, 0.05);
+            background-color: #f8fafb;
+            border: solid 1px #dcdcdc;
+}
+            .title_plus {
+                padding-bottom: 14px;
+                h3 {
+                    color: #444;
+                }
+            }
         }
 
         .notice {
@@ -598,7 +620,7 @@
             margin-right: 0;
         }
     }
-}
+
 
 footer {
     padding: 35px 0 40px 0;

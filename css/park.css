@@ -352,12 +352,33 @@
 }
 .main .flexArea_01 .apply {
   width: 530px;
+  height: 284px;
+  padding: 23px 35px 35px;
   margin-right: 35px;
+  box-shadow: 0px 3px 0 0 rgba(0, 0, 0, 0.05);
+  border: solid 1px #dcdcdc;
+}
+.main .flexArea_01 .apply .title_plus {
+  padding-bottom: 14px;
+}
+.main .flexArea_01 .apply .title_plus h3 {
+  color: #444;
 }
 .main .flexArea_01 .myCourse {
   width: 425px;
+  height: 284px;
+  padding: 23px 35px 35px;
+  box-shadow: 0px 3px 0 0 rgba(0, 0, 0, 0.05);
+  background-color: #f8fafb;
+  border: solid 1px #dcdcdc;
 }
-.main .flexArea_01 .notice {
+.main .flexArea_01 .title_plus {
+  padding-bottom: 14px;
+}
+.main .flexArea_01 .title_plus h3 {
+  color: #444;
+}
+.main .notice {
   width: 530px;
   height: 280px;
   padding: 23px 35px 35px;
@@ -365,44 +386,44 @@
   background-color: #f9f9f9;
   box-shadow: 0px 3px 0 0 rgba(0, 0, 0, 0.05);
 }
-.main .flexArea_01 .notice .title_plus {
+.main .notice .title_plus {
   border-bottom: 1px solid #d8dadb;
   padding-bottom: 14px;
 }
-.main .flexArea_01 .notice .title_plus h3 {
+.main .notice .title_plus h3 {
   color: #444;
 }
-.main .flexArea_01 .notice .notice_list {
+.main .notice .notice_list {
   margin-top: 20px;
 }
-.main .flexArea_01 .notice .notice_list li {
+.main .notice .notice_list li {
   display: flex;
   justify-content: space-between;
   line-height: 36px;
 }
-.main .flexArea_01 .notice .notice_list li a {
+.main .notice .notice_list li a {
   font-size: 14.5px;
   color: #666;
 }
-.main .flexArea_01 .notice .notice_list li span {
+.main .notice .notice_list li span {
   font-size: 15px;
   color: #aaa;
 }
-.main .flexArea_01 .class {
+.main .class {
   width: 425px;
   height: 280px;
   padding: 23px 35px 35px;
   background-color: #f9f9f9;
   box-shadow: 0px 3px 0 0 rgba(0, 0, 0, 0.05);
 }
-.main .flexArea_01 .class .title_plus {
+.main .class .title_plus {
   border-bottom: 1px solid #d8dadb;
   padding-bottom: 14px;
 }
-.main .flexArea_01 .class .title_plus h3 {
+.main .class .title_plus h3 {
   color: #444;
 }
-.main .flexArea_01 .class .class_cont .txt_green {
+.main .class .class_cont .txt_green {
   padding: 46px 0 17px 0;
   font-size: 26px;
   font-weight: 600;
@@ -413,7 +434,7 @@
   text-align: center;
   color: #269c36;
 }
-.main .flexArea_01 .class .class_cont .txt_translate {
+.main .class .class_cont .txt_translate {
   font-size: 16px;
   font-weight: bold;
   font-stretch: normal;
@@ -423,17 +444,17 @@
   text-align: center;
   color: #505055;
 }
-.main .flexArea_01 .class .class_cont .more_btn {
+.main .class .class_cont .more_btn {
   margin-top: 57px;
 }
-.main .flexArea_01 .class .class_cont .more_btn a {
+.main .class .class_cont .more_btn a {
   display: block;
   height: 27px;
   line-height: 50px;
   border-radius: 4px;
   text-align: center;
 }
-.main .flexArea_01 .class .class_cont .more_btn a span {
+.main .class .class_cont .more_btn a span {
   padding: 7px 22px 8px 24px;
   background-color: #666a75;
   font-size: 12px;
@@ -444,49 +465,50 @@
   color: #fff;
   border-radius: 3px;
 }
-.main .flexArea_02 {
+
+.flexArea_02 {
   margin: 37px 0 82px 0;
 }
-.main .flexArea_02 .thum_area {
+.flexArea_02 .thum_area {
   display: flex;
   justify-content: center;
 }
-.main .flexArea_02 .thum_area .thum_cont {
+.flexArea_02 .thum_area .thum_cont {
   margin-right: 15px;
 }
-.main .flexArea_02 .thum_area .thum_cont a {
+.flexArea_02 .thum_area .thum_cont a {
   position: relative;
 }
-.main .flexArea_02 .thum_area .thum_cont a .txtArea_01 {
+.flexArea_02 .thum_area .thum_cont a .txtArea_01 {
   position: absolute;
   top: 14px;
   left: -99px;
 }
-.main .flexArea_02 .thum_area .thum_cont a .txtArea_01 p::after {
+.flexArea_02 .thum_area .thum_cont a .txtArea_01 p::after {
   content: "";
   display: block;
   border-bottom: 1px solid #fff;
   padding-top: 5px;
 }
-.main .flexArea_02 .thum_area .thum_cont a .txtArea_02 {
+.flexArea_02 .thum_area .thum_cont a .txtArea_02 {
   position: absolute;
   top: 14px;
   left: -113px;
 }
-.main .flexArea_02 .thum_area .thum_cont a .txtArea_02 p::after {
+.flexArea_02 .thum_area .thum_cont a .txtArea_02 p::after {
   content: "";
   display: block;
   border-bottom: 1px solid #fff;
   padding-top: 5px;
 }
-.main .flexArea_02 .thum_area .thum_cont a .txtArea_03 p {
+.flexArea_02 .thum_area .thum_cont a .txtArea_03 p {
   color: #45515d !important;
   font-weight: 600;
   position: absolute;
   top: 14px;
   left: -107px;
 }
-.main .flexArea_02 .thum_area div:nth-of-type(3) {
+.flexArea_02 .thum_area div:nth-of-type(3) {
   margin-right: 0;
 }
 
