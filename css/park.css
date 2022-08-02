@@ -347,6 +347,9 @@
   min-width: 1200px;
   margin-right: 35px;
 }
+.main .flexArea_01 > div {
+  margin-top: 35px;
+}
 .main .flexArea_01 .apply {
   width: 530px;
   margin-right: 35px;
@@ -356,10 +359,90 @@
 }
 .main .flexArea_01 .notice {
   width: 530px;
+  height: 280px;
+  padding: 23px 35px 35px;
   margin-right: 35px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 3px 0 0 rgba(0, 0, 0, 0.05);
+}
+.main .flexArea_01 .notice .title_plus {
+  border-bottom: 1px solid #d8dadb;
+  padding-bottom: 14px;
+}
+.main .flexArea_01 .notice .title_plus h3 {
+  color: #444;
+}
+.main .flexArea_01 .notice .notice_list {
+  margin-top: 20px;
+}
+.main .flexArea_01 .notice .notice_list li {
+  display: flex;
+  justify-content: space-between;
+  line-height: 36px;
+}
+.main .flexArea_01 .notice .notice_list li a {
+  font-size: 14.5px;
+  color: #666;
+}
+.main .flexArea_01 .notice .notice_list li span {
+  font-size: 15px;
+  color: #aaa;
 }
 .main .flexArea_01 .class {
   width: 425px;
+  height: 280px;
+  padding: 23px 35px 35px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 3px 0 0 rgba(0, 0, 0, 0.05);
+}
+.main .flexArea_01 .class .title_plus {
+  border-bottom: 1px solid #d8dadb;
+  padding-bottom: 14px;
+}
+.main .flexArea_01 .class .title_plus h3 {
+  color: #444;
+}
+.main .flexArea_01 .class .class_cont .txt_green {
+  padding: 46px 0 17px 0;
+  font-size: 26px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.77;
+  letter-spacing: -1.3px;
+  text-align: center;
+  color: #269c36;
+}
+.main .flexArea_01 .class .class_cont .txt_translate {
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: #505055;
+}
+.main .flexArea_01 .class .class_cont .more_btn {
+  margin-top: 57px;
+}
+.main .flexArea_01 .class .class_cont .more_btn a {
+  display: block;
+  height: 27px;
+  line-height: 50px;
+  border-radius: 4px;
+  text-align: center;
+}
+.main .flexArea_01 .class .class_cont .more_btn a span {
+  padding: 7px 22px 8px 24px;
+  background-color: #666a75;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.67;
+  letter-spacing: -0.3px;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
 }
 .main .flexArea_02 {
   margin: 37px 0 82px 0;
@@ -403,7 +486,7 @@
   top: 14px;
   left: -107px;
 }
-.main .flexArea_02 .thum_area .thum_area div:nth-of-type(3) {
+.main .flexArea_02 .thum_area div:nth-of-type(3) {
   margin-right: 0;
 }
 
