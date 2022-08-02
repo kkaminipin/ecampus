@@ -443,6 +443,7 @@
   padding: 23px 35px 35px;
   margin-right: 35px;
   background-color: #f9f9f9;
+  border: 1px solid #dcdcdc;
   box-shadow: 0px 3px 0 0 rgba(0, 0, 0, 0.05);
 }
 .main .notice .title_plus {
@@ -453,7 +454,7 @@
   color: #444;
 }
 .main .notice .notice_list {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .main .notice .notice_list li {
   display: flex;
@@ -473,6 +474,7 @@
   height: 280px;
   padding: 23px 35px 35px;
   background-color: #f9f9f9;
+  border: 1px solid #dcdcdc;
   box-shadow: 0px 3px 0 0 rgba(0, 0, 0, 0.05);
 }
 .main .class .title_plus {

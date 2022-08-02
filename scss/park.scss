@@ -545,6 +545,7 @@
             padding: 23px 35px 35px;
             margin-right: 35px;
             background-color: #f9f9f9;
+            border: 1px solid #dcdcdc;
             box-shadow: 0px 3px 0 0 rgba(0, 0, 0, 0.05);
             .title_plus {
                 border-bottom: 1px solid #d8dadb;
@@ -554,7 +555,7 @@
                 }
             }
             .notice_list {
-                margin-top: 20px;
+                margin-top: 10px;
                 li {
                     display: flex;
                     justify-content: space-between;
@@ -576,6 +577,7 @@
             height: 280px;
             padding: 23px 35px 35px;
             background-color: #f9f9f9;
+            border: 1px solid #dcdcdc;
             box-shadow: 0px 3px 0 0 rgba(0, 0, 0, 0.05);
             .title_plus {
                 border-bottom: 1px solid #d8dadb;
