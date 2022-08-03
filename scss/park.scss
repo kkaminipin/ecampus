@@ -247,7 +247,7 @@
             align-items: stretch;
             justify-content: center;
             .header_nav {
-                >ul {
+                .navTop {
                     display: flex;
                     .nav_depth01 {
                         .first_a {
@@ -266,32 +266,39 @@
                         
                     }
                 }
-                
-                .nav_depth02 {
-                    display: flex;
-                    justify-content: center;
-                    padding-top: 50px;
-                    min-height: 230px;
-                    &-list {
-                        height: 172px;
-                        border-right: 1px solid #e5e5e5;
-                        padding-right: 30px;
-                        padding-left: 10px;
-                        span {
-                            font-size: 13.5px;
-                            color: #777;
-                            text-align: left;
-                            letter-spacing: -0.7px;
-                            line-height: 30px;
-                            
+                .navBottom{
+                    display: none;
+                    .nav_depth02 {
+                        display: flex;
+                        justify-content: center;
+                        padding-top: 50px;
+                        min-height: 230px;
+                        &-list {
+                            height: 172px;
+                            border-right: 1px solid #e5e5e5;
+                            padding-right: 30px;
+                            padding-left: 10px;
+                            span {
+                                font-size: 13.5px;
+                                color: #777;
+                                text-align: left;
+                                letter-spacing: -0.7px;
+                                line-height: 30px;
+                                
+                            }
+                            span:hover {
+                                color: #ed164b;
+                                padding-bottom: 2px;
+                                border-bottom: 2px solid #ed164b;
+                            }
                         }
-                        span:hover {
-                            color: #ed164b;
-                            padding-bottom: 2px;
-                            border-bottom: 2px solid #ed164b;
-                        }
+                        
                     }
-                    
+                }
+            }
+            .header_nav:hover {
+                .navBottom {
+                    display: block;
                 }
             }
             
