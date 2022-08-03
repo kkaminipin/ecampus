@@ -419,9 +419,13 @@
   background: #fff;
 }
 .main .flexArea_01 .apply .container .current li {
+  width: 455px;
   text-align: left;
   font-size: 15px;
   line-height: 36px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .main .flexArea_01 .myCourse {
   width: 425px;
@@ -446,6 +450,7 @@
   padding: 0;
 }
 .main .flexArea_01 .myCourse .container_2 .tabs li {
+  border-right: 1px solid #fff;
   width: 130px;
   height: 40px;
   margin-left: -5px;
@@ -458,7 +463,11 @@
   padding: 10px 15px;
   cursor: pointer;
 }
+.main .flexArea_01 .myCourse .container_2 .tabs li:last-child {
+  border-right: none;
+}
 .main .flexArea_01 .myCourse .container_2 .tabs .tab-link_current {
+  border-right: none;
   background-color: #eaeef2;
   border-bottom: none;
   color: #475c9b;
