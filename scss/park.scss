@@ -142,7 +142,7 @@
 }
 
 .header {
-    border-bottom: 1px solid #7f9bba;
+    
     &_top {
         padding-top: 12px;
 
@@ -240,6 +240,7 @@
     }
 
     nav {
+        position: relative;
         padding: 28px 0 30px 0;
         .inner {
             position: static;
@@ -266,45 +267,56 @@
                         
                     }
                 }
-                .navBottom{
-                    display: none;
-                    .nav_depth02 {
-                        display: flex;
-                        justify-content: center;
-                        padding-top: 50px;
-                        min-height: 230px;
-                        &-list {
-                            height: 172px;
-                            border-right: 1px solid #e5e5e5;
-                            padding-right: 30px;
-                            padding-left: 10px;
-                            span {
-                                font-size: 13.5px;
-                                color: #777;
-                                text-align: left;
-                                letter-spacing: -0.7px;
-                                line-height: 30px;
-                                
-                            }
-                            span:hover {
-                                color: #ed164b;
-                                padding-bottom: 2px;
-                                border-bottom: 2px solid #ed164b;
-                            }
-                        }
-                        
-                    }
-                }
-            }
-            .header_nav:hover {
-                .navBottom {
-                    display: block;
-                }
+                
             }
             
+            
+        }
+        .navBottom{
+            width: 100%;
+            display: none;
+            position: absolute;
+            top: 65px;
+            left: 0;
+            z-index: 99999;
+            background-color: #fff;
+            border-bottom: 1px solid #7f9bba;
+            .nav_depth02 {
+                display: flex;
+                justify-content: center;
+                padding-top: 50px;
+                padding-bottom: 40px;
+                min-height: 230px;
+                &-list {
+                    height: 172px;
+                    border-right: 1px solid #e5e5e5;
+                    padding-right: 30px;
+                    padding-left: 10px;
+                    span {
+                        font-size: 13.5px;
+                        color: #777;
+                        text-align: left;
+                        letter-spacing: -0.7px;
+                        line-height: 30px;
+                    }
+                    span:hover {
+                        color: #ed164b;
+                        padding-bottom: 2px;
+                        border-bottom: 2px solid #ed164b;
+                    }
+                }
+                
+            }
+        }
+    }
+    nav:hover {
+        .navBottom {
+            display: block;
         }
     }
 }
+
+
 
 .main {
     .gray_area {

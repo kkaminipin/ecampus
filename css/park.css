@@ -123,9 +123,6 @@
   color: #9859a3;
 }
 
-.header {
-  border-bottom: 1px solid #7f9bba;
-}
 .header_top {
   padding-top: 12px;
 }
@@ -202,6 +199,7 @@
   height: 24px;
 }
 .header nav {
+  position: relative;
   padding: 28px 0 30px 0;
 }
 .header nav .inner {
@@ -226,34 +224,42 @@
   padding-bottom: 2px;
   border-bottom: 2px solid #ed164b;
 }
-.header nav .inner .header_nav .navBottom {
+.header nav .navBottom {
+  width: 100%;
   display: none;
+  position: absolute;
+  top: 65px;
+  left: 0;
+  z-index: 99999;
+  background-color: #fff;
+  border-bottom: 1px solid #7f9bba;
 }
-.header nav .inner .header_nav .navBottom .nav_depth02 {
+.header nav .navBottom .nav_depth02 {
   display: flex;
   justify-content: center;
   padding-top: 50px;
+  padding-bottom: 40px;
   min-height: 230px;
 }
-.header nav .inner .header_nav .navBottom .nav_depth02-list {
+.header nav .navBottom .nav_depth02-list {
   height: 172px;
   border-right: 1px solid #e5e5e5;
   padding-right: 30px;
   padding-left: 10px;
 }
-.header nav .inner .header_nav .navBottom .nav_depth02-list span {
+.header nav .navBottom .nav_depth02-list span {
   font-size: 13.5px;
   color: #777;
   text-align: left;
   letter-spacing: -0.7px;
   line-height: 30px;
 }
-.header nav .inner .header_nav .navBottom .nav_depth02-list span:hover {
+.header nav .navBottom .nav_depth02-list span:hover {
   color: #ed164b;
   padding-bottom: 2px;
   border-bottom: 2px solid #ed164b;
 }
-.header nav .inner .header_nav:hover .navBottom {
+.header nav:hover .navBottom {
   display: block;
 }
 
