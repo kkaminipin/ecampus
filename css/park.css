@@ -426,18 +426,71 @@
 .main .flexArea_01 .myCourse {
   width: 425px;
   height: 284px;
-  padding: 23px 35px 35px;
   box-shadow: 0px 3px 0 0 rgba(0, 0, 0, 0.05);
   background-color: #f8fafb;
   border: solid 1px #dcdcdc;
 }
-.main .flexArea_01 .title_plus {
-  padding-bottom: 14px;
+.main .flexArea_01 .myCourse .title_plus {
+  padding: 23px 35px 10px 35px;
 }
-.main .flexArea_01 .title_plus h3 {
+.main .flexArea_01 .myCourse .title_plus h3 {
   color: #444;
 }
-.main .notice {
+.main .flexArea_01 .myCourse .container_2 {
+  min-width: 425px;
+  margin: 0 auto;
+}
+.main .flexArea_01 .myCourse .container_2 .tabs {
+  margin-left: 38px;
+  margin-bottom: -10px;
+  padding: 0;
+}
+.main .flexArea_01 .myCourse .container_2 .tabs li {
+  width: 130px;
+  height: 40px;
+  margin-left: -5px;
+  background: #d7dee6;
+  font-size: 16px;
+  color: #6a7a8a;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.main .flexArea_01 .myCourse .container_2 .tabs .tab-link_current {
+  background-color: #eaeef2;
+  border-bottom: none;
+  color: #475c9b;
+}
+.main .flexArea_01 .myCourse .container_2 .tab-cont {
+  display: none;
+  margin-top: 10px;
+  background: #fff;
+}
+.main .flexArea_01 .myCourse .container_2 .tab-cont ul {
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+.main .flexArea_01 .myCourse .container_2 .tab-cont ul li {
+  text-align: left;
+  font-size: 15px;
+  line-height: 36px;
+  display: flex;
+}
+.main .flexArea_01 .myCourse .container_2 .tab-cont ul li .txt_category {
+  color: #818181;
+}
+.main .flexArea_01 .myCourse .container_2 .tab-cont ul li .txt_white {
+  text-align: left;
+  margin-left: 20px;
+}
+.main .flexArea_01 .myCourse .container_2 .current {
+  display: block;
+  padding: 0 35px 0px 35px;
+  background: #eaeef2;
+}
+.main .flexArea_01 .notice {
   width: 530px;
   height: 280px;
   padding: 23px 35px 35px;
@@ -446,30 +499,30 @@
   border: 1px solid #dcdcdc;
   box-shadow: 0px 3px 0 0 rgba(0, 0, 0, 0.05);
 }
-.main .notice .title_plus {
+.main .flexArea_01 .notice .title_plus {
   border-bottom: 1px solid #d8dadb;
   padding-bottom: 14px;
 }
-.main .notice .title_plus h3 {
+.main .flexArea_01 .notice .title_plus h3 {
   color: #444;
 }
-.main .notice .notice_list {
+.main .flexArea_01 .notice .notice_list {
   margin-top: 10px;
 }
-.main .notice .notice_list li {
+.main .flexArea_01 .notice .notice_list li {
   display: flex;
   justify-content: space-between;
   line-height: 36px;
 }
-.main .notice .notice_list li a {
+.main .flexArea_01 .notice .notice_list li a {
   font-size: 14.5px;
   color: #666;
 }
-.main .notice .notice_list li span {
+.main .flexArea_01 .notice .notice_list li span {
   font-size: 15px;
   color: #aaa;
 }
-.main .class {
+.main .flexArea_01 .class {
   width: 425px;
   height: 280px;
   padding: 23px 35px 35px;
@@ -477,14 +530,14 @@
   border: 1px solid #dcdcdc;
   box-shadow: 0px 3px 0 0 rgba(0, 0, 0, 0.05);
 }
-.main .class .title_plus {
+.main .flexArea_01 .class .title_plus {
   border-bottom: 1px solid #d8dadb;
   padding-bottom: 14px;
 }
-.main .class .title_plus h3 {
+.main .flexArea_01 .class .title_plus h3 {
   color: #444;
 }
-.main .class .class_cont .txt_green {
+.main .flexArea_01 .class .class_cont .txt_green {
   padding: 46px 0 17px 0;
   font-size: 26px;
   font-weight: 600;
@@ -495,7 +548,7 @@
   text-align: center;
   color: #269c36;
 }
-.main .class .class_cont .txt_translate {
+.main .flexArea_01 .class .class_cont .txt_translate {
   font-size: 16px;
   font-weight: bold;
   font-stretch: normal;
@@ -505,17 +558,17 @@
   text-align: center;
   color: #505055;
 }
-.main .class .class_cont .more_btn {
+.main .flexArea_01 .class .class_cont .more_btn {
   margin-top: 57px;
 }
-.main .class .class_cont .more_btn a {
+.main .flexArea_01 .class .class_cont .more_btn a {
   display: block;
   height: 27px;
   line-height: 50px;
   border-radius: 4px;
   text-align: center;
 }
-.main .class .class_cont .more_btn a span {
+.main .flexArea_01 .class .class_cont .more_btn a span {
   padding: 7px 22px 8px 24px;
   background-color: #666a75;
   font-size: 12px;
@@ -526,50 +579,49 @@
   color: #fff;
   border-radius: 3px;
 }
-
-.flexArea_02 {
+.main .flexArea_02 {
   margin: 37px 0 82px 0;
 }
-.flexArea_02 .thum_area {
+.main .flexArea_02 .thum_area {
   display: flex;
   justify-content: center;
 }
-.flexArea_02 .thum_area .thum_cont {
+.main .flexArea_02 .thum_area .thum_cont {
   margin-right: 15px;
 }
-.flexArea_02 .thum_area .thum_cont a {
+.main .flexArea_02 .thum_area .thum_cont a {
   position: relative;
 }
-.flexArea_02 .thum_area .thum_cont a .txtArea_01 {
+.main .flexArea_02 .thum_area .thum_cont a .txtArea_01 {
   position: absolute;
   top: 14px;
   left: -99px;
 }
-.flexArea_02 .thum_area .thum_cont a .txtArea_01 p::after {
+.main .flexArea_02 .thum_area .thum_cont a .txtArea_01 p::after {
   content: "";
   display: block;
   border-bottom: 1px solid #fff;
   padding-top: 5px;
 }
-.flexArea_02 .thum_area .thum_cont a .txtArea_02 {
+.main .flexArea_02 .thum_area .thum_cont a .txtArea_02 {
   position: absolute;
   top: 14px;
   left: -113px;
 }
-.flexArea_02 .thum_area .thum_cont a .txtArea_02 p::after {
+.main .flexArea_02 .thum_area .thum_cont a .txtArea_02 p::after {
   content: "";
   display: block;
   border-bottom: 1px solid #fff;
   padding-top: 5px;
 }
-.flexArea_02 .thum_area .thum_cont a .txtArea_03 p {
+.main .flexArea_02 .thum_area .thum_cont a .txtArea_03 p {
   color: #45515d !important;
   font-weight: 600;
   position: absolute;
   top: 14px;
   left: -107px;
 }
-.flexArea_02 .thum_area div:nth-of-type(3) {
+.main .flexArea_02 .thum_area div:nth-of-type(3) {
   margin-right: 0;
 }
 

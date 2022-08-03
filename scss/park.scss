@@ -526,15 +526,77 @@
         .myCourse { 
             width: 425px;
             height: 284px;
-            padding: 23px 35px 35px;
+           
             box-shadow: 0px 3px 0 0 rgba(0, 0, 0, 0.05);
             background-color: #f8fafb;
             border: solid 1px #dcdcdc;
-}
+
             .title_plus {
-                padding-bottom: 14px;
+                padding: 23px 35px 10px 35px;
                 h3 {
                     color: #444;
+                }
+            }
+            .container_2 {
+                min-width: 425px;
+                margin: 0 auto;
+                
+                
+                .tabs {
+                    margin-left: 38px;
+                    margin-bottom: -10px;
+                    padding: 0;
+                    li {
+                        width: 130px;
+                        height: 40px;
+                        margin-left: -5px;
+                        background: #d7dee6;
+                        font-size: 16px;
+                        color: #6a7a8a;
+                        font-weight: bold;
+                        text-align: center;
+                        display: inline-block;
+                        padding: 10px 15px;
+                        cursor: pointer;
+                        
+                    }
+                    .tab-link_current {
+                        background-color: #eaeef2;
+                        border-bottom: none;
+                        color: #475c9b;
+                        
+                    }
+                    
+                }
+                .tab-cont {
+                    display: none;
+                    margin-top: 10px;
+                    background: #fff;
+                    ul {
+                        padding-top: 10px;
+                        padding-bottom: 25px;
+                        li {
+                            text-align: left;
+                            font-size: 15px;
+                            line-height: 36px;
+                            display: flex;
+                            
+                            .txt_category {
+                                color: #818181;
+                            }
+                            .txt_white {
+                                text-align: left;
+                                margin-left: 20px;
+                            }
+                        }
+                    }
+                    
+                }
+                .current {
+                    display: block;
+                    padding: 0 35px 0px 35px;
+                    background: #eaeef2;
+                    
                 }
             }
         }
@@ -687,7 +749,7 @@
             margin-right: 0;
         }
     }
-
+}
 
 footer {
     padding: 35px 0 40px 0;
