@@ -6,9 +6,53 @@
 }
 .inner {
     position: relative;
-    max-width: 990px;
-    width: 100%;
+    width: 990px;
     margin: 0 auto;
+}
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.first_txt {
+    font-size: 12.5px;
+    color: #997c68;
+    font-weight: 600;
+    padding: 13px 0 17px 0;
+    letter-spacing: -1px;
+    
+}
+
+.second_txt {
+    padding-bottom: 21px;
+    font-size: 17.5px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.87;
+    letter-spacing: -1.13px;
+    color: #997c68;
+}
+
+.p_long {
+    letter-spacing: -2px;
+}
+
+.new_cont::after {
+    content: "N";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    margin-left: 5px;
+    padding-right: 0;
+    background-color: #f33;
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: #fff;
+    letter-spacing: -0.6px;
+    text-align: center;
 }
 
 .txt_category {
@@ -38,7 +82,6 @@
         height: 16px;
     }
 }
-
 
 .box_ico {
     border: 1px solid #cac7c0;
@@ -75,34 +118,10 @@
     }
 
     .txt_area {
+        text-align: center;
+        display: flex;
+        justify-content: center;
         background-color: #faf4e4;
-
-        .first_txt {
-            display: flex;
-            justify-content: space-around;
-            font-size: 12.5px;
-            color: #997c68;
-            font-weight: 600;
-            padding: 13px 0 17px 0;
-            letter-spacing: -1px;
-            .span_long {
-                letter-spacing: -2px;
-            }
-        }
-
-        .second_txt {
-            display: flex;
-            justify-content: space-around;
-            padding-bottom: 21px;
-            font-size: 17.5px;
-            font-weight: bold;
-            font-stretch: normal;
-            font-style: normal;
-            line-height: 0.87;
-            letter-spacing: -1.13px;
-            text-align: left;
-            color: #997c68;
-        }
     }
 }
 
@@ -123,6 +142,7 @@
 }
 
 .tag_red {
+    display: inline-block;
     padding: 3px 10px;
     border: 1px solid #d42525;
     font-size: 13px;
@@ -132,6 +152,7 @@
 }
 
 .tag_purple {
+    display: inline-block;
     padding: 3px 10px;
     border: 1px solid #9859a3;
     font-size: 13px;
@@ -140,6 +161,7 @@
     color: #9859a3;
 }
 
+// 헤더
 .header {
     border-bottom: 1px solid #7f9bba;
     &_top {
@@ -176,7 +198,7 @@
                     li {
                         color: #808080;
                         font-size: 14px;
-                        line-height: 27px;
+                        line-height: 34px;
                     }
 
                     li::before {
@@ -235,7 +257,7 @@
             }
         }
     }
-
+// 네비게이션
     nav {
         position: relative;
         padding: 28px 0 30px 0;
@@ -325,8 +347,7 @@
     }
 }
 
-
-
+// 메인
 .main {
     .gray_area {
         background-image: url(/img/gray_bg.png);
@@ -353,7 +374,7 @@
                             margin-right: 3px;
                             background: #e5585e;
 
-                            h1 {
+                            h2 {
                                 color: #fff;
                                 font-size: 25.5px;
                                 font-weight: 600;
@@ -386,17 +407,18 @@
                                 }
                             }
 
-                            .txt_category {
+                            .txt_cat {
                                 display: flex;
 
                                 ul {
                                     li {
+                                        display: flex;
                                         .txt_category {
-                                            margin-right: 11px;
+                                            min-width: 75px;
+                                            margin-right: 32px;
                                         }
 
                                         .txt_white {
-                                            width: 177px;
                                             font-size: 16px;
                                             font-weight: normal;
                                             line-height: 2.19;
@@ -404,10 +426,10 @@
                                             text-align: left;
                                             color: #fff;
                                             display: block;
-                                            white-space: nowrap;
-                                            overflow: hidden;
-                                            text-overflow: ellipsis;
                                         }
+                                        .ellipsis {
+                                            width: 179px;
+                                        }   
                                     }
                                 }
                             }
@@ -455,10 +477,12 @@
                                 letter-spacing: -0.7px;
                                 text-align: left;
                                 color: #626262;
+                                
+                            }
+                            .ellipsis {
+                                white-space: unset;
                                 display: block;
                                 word-break: break-word;
-                                overflow: hidden;
-                                text-overflow: ellipsis;
                                 display: -webkit-box;
                                 -webkit-line-clamp: 4; 
                                 -webkit-box-orient: vertical
@@ -471,31 +495,19 @@
                         font-size: 14px;
                         color: #626262;
                         line-height: 20px;
-
                         ul {
                             li {
-                                p {
+                                span  {
+                                    display: inline-block;
                                     padding: 10px 0 10px 0;
                                     position: relative;
                                 }
-
-                                .new_cont::after {
-                                    content: "N";
-                                    position: absolute;
-                                    top: 50%;
-                                    left: 155px;
-                                    transform: translateY(-50%);
-                                    width: 15px;
-                                    height: 15px;
-                                    line-height: 15px;
-                                    padding-right: 0;
-                                    background-color: #f33;
-                                    font-family: NanumSquare, sans-serif;
-                                    font-weight: 800;
-                                    font-size: 1.2rem;
-                                    color: #fff;
-                                    letter-spacing: -.6px;
-                                    text-align: center;
+                                .ellipsis {
+                                    width: 325px;
+                                }
+                                .new_cont {
+                                    display: inline-block;
+                                    margin-top: 13px;
                                 }
                             }
 
@@ -577,14 +589,13 @@
                     display: block;
                     background: #fff;
                     li {
-                        width: 455px;
-                        text-align: left;
-                        font-size: 15px;
-                        line-height: 36px;
-                        white-space: nowrap;
-                        overflow: hidden;
-                        text-overflow: ellipsis;
-                        // list-style: disc;
+                        .ellipsis {
+                            display: inline-block;
+                            max-width: 348px;
+                            text-align: left;
+                            font-size: 15px;
+                            line-height: 36px;
+                        } 
                     }
                 }
             }
@@ -816,7 +827,7 @@
         }
     }
 }
-
+// 푸터
 footer {
     padding: 35px 0 40px 0;
     border-top: 1px solid #d0d0d0;
@@ -831,7 +842,7 @@ footer {
             }
 
             &_mid {
-                p {
+                address {
                     font-size: 12.5px;
                     color: #666;
                     text-align: left;
@@ -848,6 +859,5 @@ footer {
                 }
             }
         }
-
     }
 }
