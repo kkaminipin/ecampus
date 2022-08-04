@@ -578,6 +578,15 @@
                         border-bottom: none;
                         color: #475c9b;
                     }
+                    .tab-link_current::before {
+                        display: inline-block;
+                        margin-top: 6px;
+                        margin-right: 10px;
+                        content: "";
+                        background-image: url(/img/arrow_blue.png);
+                        width: 6px;
+                        height: 10px;
+                    }
                     
                 }
                 .tab-cont {
@@ -624,7 +633,7 @@
                     padding: 0;
                     li {
                         border-right: 1px solid #fff;
-                        width: 130px;
+                        min-width: 126px;
                         height: 40px;
                         margin-left: -5px;
                         background: #d7dee6;
@@ -643,7 +652,16 @@
                         border-right: none;
                         background-color: #eaeef2;
                         border-bottom: none;
-                        color: #475c9b;
+                        color: #444;
+                    }
+                    .tab-link_current::before {
+                        display: inline-block;
+                        margin-top: 6px;
+                        margin-right: 10px;
+                        content: "";
+                        background-image: url(/img/arrow_gray.png);
+                        width: 6px;
+                        height: 10px;
                     }
                     
                 }
