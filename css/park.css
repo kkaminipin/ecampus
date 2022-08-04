@@ -120,6 +120,9 @@
   justify-content: center;
   background-color: #faf4e4;
 }
+.box_ico .txt_area > ul {
+  margin-right: 10px;
+}
 
 .thum_cont {
   text-align: center;

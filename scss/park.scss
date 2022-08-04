@@ -122,6 +122,9 @@
         display: flex;
         justify-content: center;
         background-color: #faf4e4;
+        >ul {
+            margin-right: 10px;
+        }
     }
 }
 
