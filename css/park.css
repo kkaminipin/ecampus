@@ -244,8 +244,19 @@
 .header nav .navBottom .nav_depth02-list {
   height: 172px;
   border-right: 1px solid #e5e5e5;
-  padding-right: 30px;
   padding-left: 10px;
+}
+.header nav .navBottom .nav_depth02-list .plan {
+  padding-right: 35px;
+}
+.header nav .navBottom .nav_depth02-list .courseApply {
+  padding-right: 22px;
+}
+.header nav .navBottom .nav_depth02-list .edu {
+  padding-right: 43px;
+}
+.header nav .navBottom .nav_depth02-list .community {
+  padding-right: 75px;
 }
 .header nav .navBottom .nav_depth02-list span {
   font-size: 13.5px;
@@ -258,6 +269,9 @@
   color: #ed164b;
   padding-bottom: 2px;
   border-bottom: 2px solid #ed164b;
+}
+.header nav .navBottom .nav_depth02-list:last-child {
+  border-right: none;
 }
 .header nav:hover .navBottom {
   display: block;

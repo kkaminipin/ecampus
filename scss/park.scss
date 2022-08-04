@@ -290,8 +290,19 @@
                 &-list {
                     height: 172px;
                     border-right: 1px solid #e5e5e5;
-                    padding-right: 30px;
                     padding-left: 10px;
+                    .plan {
+                        padding-right: 35px;
+                    }
+                    .courseApply {
+                        padding-right: 22px;
+                    }
+                    .edu {
+                        padding-right: 43px;
+                    }
+                    .community {
+                        padding-right: 75px;
+                    }
                     span {
                         font-size: 13.5px;
                         color: #777;
@@ -304,6 +315,9 @@
                         padding-bottom: 2px;
                         border-bottom: 2px solid #ed164b;
                     }
+                }
+                &-list:last-child {
+                    border-right: none;
                 }
                 
             }
