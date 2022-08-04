@@ -6,7 +6,6 @@
 }
 
 .txt_category {
-
     font-family: MalgunGothic;
     font-size: 12px;
     font-weight: normal;
@@ -21,7 +20,6 @@
 .title_plus {
     display: flex;
     justify-content: space-between;
-
     h3 {
         color: #fff;
         font-size: 20px;
@@ -42,10 +40,8 @@
     height: 198px;
     margin-right: 3px;
     margin-top: 3px;
-
     .icon_area {
         background: #fff;
-
         & a {
             text-align: center;
 
@@ -53,7 +49,6 @@
                 display: block;
                 margin: 0 auto;
                 padding: 12px 0 6px 0;
-
             }
 
             .simg_01 {
@@ -84,7 +79,6 @@
             font-weight: 600;
             padding: 13px 0 17px 0;
             letter-spacing: -1px;
-
             .span_long {
                 letter-spacing: -2px;
             }
@@ -103,7 +97,6 @@
             text-align: left;
             color: #997c68;
         }
-
     }
 }
 
@@ -142,7 +135,6 @@
 }
 
 .header {
-    
     &_top {
         padding-top: 12px;
 
@@ -197,13 +189,11 @@
                         margin-left: 0;
 
                     }
-
                 }
             }
 
             .info_area {
                 margin-right: 18px;
-
                 ul {
                     display: flex;
 
@@ -224,7 +214,6 @@
 
             .language_select {
                 position: relative;
-
                 input[type=submit] {
                     background: url(/img/search.png) no-repeat;
                     text-indent: -9999em;
@@ -269,8 +258,6 @@
                 }
                 
             }
-            
-            
         }
         .navBottom{
             width: 100%;
@@ -336,7 +323,6 @@
     .gray_area {
         background-image: url(/img/gray_bg.png);
         height: 446px;
-
         .inner {
             .article_01 {
                 display: flex;
@@ -360,7 +346,6 @@
                             background: #e5585e;
 
                             h1 {
-
                                 color: #fff;
                                 font-size: 25.5px;
                                 font-weight: 600;
@@ -430,7 +415,6 @@
                     .title_plus {
                         border-bottom: 1px solid #d8dadb;
                         padding-bottom: 14px;
-
                         h3 {
                             color: #444;
 
@@ -468,7 +452,7 @@
                                 overflow: hidden;
                                 text-overflow: ellipsis;
                                 display: -webkit-box;
-                                -webkit-line-clamp: 4; // 원하는 라인수
+                                -webkit-line-clamp: 4; 
                                 -webkit-box-orient: vertical
                             }
                         }
@@ -567,14 +551,12 @@
                         display: inline-block;
                         padding: 10px 15px;
                         cursor: pointer;
-                        
                     }
                     .tab-link_current {
                         background: #fff;
                         border: 3px solid #475c9b;
                         border-bottom: none;
                         color: #475c9b;
-                        
                     }
                     
                 }
@@ -582,7 +564,6 @@
                     display: none;
                     margin-top: 10px;
                     background: #fff;
-                    
                 }
                 .current {
                     display: block;
@@ -618,7 +599,6 @@
                 min-width: 425px;
                 margin: 0 auto;
                 
-                
                 .tabs {
                     margin-left: 38px;
                     margin-bottom: -10px;
@@ -645,7 +625,6 @@
                         background-color: #eaeef2;
                         border-bottom: none;
                         color: #475c9b;
-                        
                     }
                     
                 }
@@ -661,7 +640,6 @@
                             font-size: 15px;
                             line-height: 36px;
                             display: flex;
-                            
                             .txt_category {
                                 color: #818181;
                             }
@@ -677,7 +655,6 @@
                     display: block;
                     padding: 0 35px 0px 35px;
                     background: #eaeef2;
-                    
                 }
             }
         }
