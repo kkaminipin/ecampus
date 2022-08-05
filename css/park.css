@@ -612,6 +612,7 @@
   color: #818181;
 }
 .main .flexArea_01 .myCourse .container_2 .tab-cont ul li .txt_white {
+  width: 270px;
   text-align: left;
   margin-left: 20px;
 }
@@ -647,6 +648,9 @@
 .main .flexArea_01 .notice .notice_list li a {
   font-size: 14.5px;
   color: #666;
+}
+.main .flexArea_01 .notice .notice_list li .ellipsis {
+  width: 350px;
 }
 .main .flexArea_01 .notice .notice_list li span {
   font-size: 15px;
