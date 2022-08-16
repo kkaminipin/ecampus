@@ -22,6 +22,8 @@ for (var i = 0; i < tabList.length; i++) {
         document.querySelector(activeCont).style.display = 'block';
     });
 }
+
+
 //탭메뉴2
 const tabList2 = document.querySelectorAll('.myCourse .tab_menu2 .list li');
 const contents2 = document.querySelectorAll('.cont_area2 .cont');
