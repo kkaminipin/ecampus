@@ -87,7 +87,6 @@
 .box_ico {
   border: 1px solid #cac7c0;
   width: 175px;
-  height: 198px;
   margin-right: 3px;
   margin-top: 3px;
 }
@@ -115,10 +114,12 @@
   padding-bottom: 14px;
 }
 .box_ico .txt_area {
+  width: 173px;
+  min-height: 65px;
   text-align: center;
   display: flex;
   justify-content: center;
-  background-color: #faf4e4;
+  background-image: url(/img/box_beige.jpg);
 }
 .box_ico .txt_area > ul {
   margin-right: 10px;
@@ -329,7 +330,7 @@
   width: 175px;
   height: 194px;
   margin-right: 3px;
-  background: #e5585e;
+  background-image: url(/img/box_red.png);
 }
 .main .gray_area .inner .article_01 .content .box_1 h2 {
   color: #fff;

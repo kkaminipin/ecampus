@@ -91,7 +91,6 @@
 .box_ico {
     border: 1px solid #cac7c0;
     width: 175px;
-    height: 198px;
     margin-right: 3px;
     margin-top: 3px;
 
@@ -127,10 +126,12 @@
     }
 
     .txt_area {
+        width: 173px;
+        min-height: 65px;
         text-align: center;
         display: flex;
         justify-content: center;
-        background-color: #faf4e4;
+        background-image: url(/img/box_beige.jpg);
 
         >ul {
             margin-right: 10px;
@@ -389,7 +390,8 @@
                             width: 175px;
                             height: 194px;
                             margin-right: 3px;
-                            background: #e5585e;
+                            background-image: url(/img/box_red.png);
+                            // background: #e5585e;
 
                             h2 {
                                 color: #fff;
@@ -467,7 +469,6 @@
 
                         h3 {
                             color: #444;
-
                         }
                     }
 
@@ -497,7 +498,6 @@
                                 letter-spacing: -0.7px;
                                 text-align: left;
                                 color: #626262;
-
                             }
 
                             .ellipsis {
@@ -623,7 +623,6 @@
                 }
 
                 .cont_area {
-                    // display: none;
                     margin-top: 10px;
                     background: #fff;
                     font-size: 15px;
@@ -857,7 +856,6 @@
                     }
                 }
             }
-
         }
     }
 
