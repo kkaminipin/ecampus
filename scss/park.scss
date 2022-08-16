@@ -99,13 +99,13 @@
                 margin: 0 auto;
                 padding: 12px 0 6px 0;
             }
-
-            .simg_01 {
-                padding: 16px 0 12px 0;
-            }
-
-            .simg_02 {
-                padding: 14px 0 9px 0;
+            .simg {
+                &_01 {
+                    padding: 16px 0 12px 0;
+                }
+                &_02 {
+                    padding: 14px 0 9px 0;
+                }
             }
 
             p {
@@ -145,7 +145,7 @@
 }
 
 .tag_red {
-    display: inline-block;
+    // display: inline-block;
     padding: 3px 10px;
     border: 1px solid #d42525;
     font-size: 13px;
@@ -155,7 +155,7 @@
 }
 
 .tag_purple {
-    display: inline-block;
+    // display: inline-block;
     padding: 3px 10px;
     border: 1px solid #9859a3;
     font-size: 13px;
@@ -555,11 +555,11 @@
                     color: #444;
                 }
             }
-            .container {
+            .tab_menu {
                 min-width: 462px;
                 margin: 0 auto;
                 
-                .tabs {
+                .list {
                     margin: 0;
                     padding: 0;
                     li {
@@ -574,17 +574,18 @@
                         display: inline-block;
                         padding: 10px 15px;
                         cursor: pointer;
+                        word-spacing: -2px;
                     }
-                    .tab-link_current {
+                    .is_on {
                         background: #fff;
                         border: 3px solid #475c9b;
                         border-bottom: none;
                         color: #475c9b;
                     }
-                    .tab-link_current::before {
+                    .is_on::before {
                         display: inline-block;
                         margin-top: 6px;
-                        margin-right: 10px;
+                        margin-right: 5px;
                         content: "";
                         background-image: url(/img/arrow_blue.png);
                         width: 6px;
@@ -592,22 +593,19 @@
                     }
                     
                 }
-                .tab-cont {
-                    display: none;
+                .cont_area {
+                    // display: none;
                     margin-top: 10px;
                     background: #fff;
-                }
-                .current {
-                    display: block;
-                    background: #fff;
-                    li {
-                        .ellipsis {
-                            display: inline-block;
-                            max-width: 348px;
-                            text-align: left;
-                            font-size: 15px;
-                            line-height: 36px;
-                        } 
+                    font-size: 15px;
+                    line-height: 36px;
+                    .ellipsis {
+                        display: inline-block;
+                        max-width: 348px;
+                        text-align: left;
+                    } 
+                    #tab2 {
+                        display: none;
                     }
                 }
             }
@@ -626,11 +624,11 @@
                     color: #444;
                 }
             }
-            .container_2 {
+            .tab_menu2 {
                 min-width: 425px;
                 margin: 0 auto;
                 
-                .tabs {
+                .list {
                     margin-left: 38px;
                     margin-bottom: -10px;
                     padding: 0;
@@ -647,20 +645,22 @@
                         display: inline-block;
                         padding: 10px 15px;
                         cursor: pointer;
+                        word-spacing: -2px;
                     }
                     li:last-child {
                         border-right: none;
                     }
-                    .tab-link_current {
+                    .is_on {
+                        min-width: 138px;
                         border-right: none;
                         background-color: #eaeef2;
                         border-bottom: none;
                         color: #444;
                     }
-                    .tab-link_current::before {
+                    .is_on::before {
                         display: inline-block;
                         margin-top: 6px;
-                        margin-right: 10px;
+                        margin-right: 5px;
                         content: "";
                         background-image: url(/img/arrow_gray.png);
                         width: 6px;
@@ -668,8 +668,7 @@
                     }
                     
                 }
-                .tab-cont {
-                    display: none;
+                .cont_area2 {
                     margin-top: 10px;
                     background: #fff;
                     ul {
@@ -692,10 +691,13 @@
                     }
                     
                 }
-                .current {
+                .cont {
                     display: block;
                     padding: 0 35px 0px 35px;
                     background: #eaeef2;
+                }
+                #tab4, #tab5 {
+                    display: none;
                 }
             }
         }

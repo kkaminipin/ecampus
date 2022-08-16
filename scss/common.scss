@@ -475,3 +475,60 @@ address {
     -ms-flex-item-align: stretch;
     align-self: stretch
 }
+
+// .tab_menu {
+//     min-width: 462px;
+//     margin: 0 auto;
+//     position: relative;
+    
+//     .list {
+//         margin: 0;
+//         padding: 0;
+//         overflow: hidden;
+//         li {
+//             float:left;
+//             width: 230px;
+//             height: 40px;
+//             margin-left: -5px;
+//             background: #d7dee6;
+//             font-size: 16px;
+//             color: #6a7a8a;
+//             font-weight: bold;
+//             text-align: center;
+//             padding: 10px 15px;
+//             cursor: pointer;
+//         }
+//         .is_on {
+//             background: #fff;
+//             border: 3px solid #475c9b;
+//             border-bottom: none;
+//             color: #475c9b;
+//         }
+//         .is_on::before {
+//             display: inline-block;
+//             margin-top: 6px;
+//             margin-right: 10px;
+//             content: "";
+//             background-image: url(/img/arrow_blue.png);
+//             width: 6px;
+//             height: 10px;
+//         }
+        
+//     }
+//     .cont_area {
+//         position: absolute;
+//         top: 25px;
+//         left: 0;
+//         margin-top: 10px;
+//         background: #555;
+//     }
+//     li {
+//         .ellipsis {
+//             display: inline-block;
+//             max-width: 348px;
+//             text-align: left;
+//             font-size: 15px;
+//             line-height: 36px;
+//         } 
+//     }
+// }

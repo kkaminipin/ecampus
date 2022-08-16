@@ -139,7 +139,6 @@
 }
 
 .tag_red {
-  display: inline-block;
   padding: 3px 10px;
   border: 1px solid #d42525;
   font-size: 13px;
@@ -149,7 +148,6 @@
 }
 
 .tag_purple {
-  display: inline-block;
   padding: 3px 10px;
   border: 1px solid #9859a3;
   font-size: 13px;
@@ -487,15 +485,15 @@
 .main .flexArea_01 .apply .title_plus h3 {
   color: #444;
 }
-.main .flexArea_01 .apply .container {
+.main .flexArea_01 .apply .tab_menu {
   min-width: 462px;
   margin: 0 auto;
 }
-.main .flexArea_01 .apply .container .tabs {
+.main .flexArea_01 .apply .tab_menu .list {
   margin: 0;
   padding: 0;
 }
-.main .flexArea_01 .apply .container .tabs li {
+.main .flexArea_01 .apply .tab_menu .list li {
   width: 230px;
   height: 40px;
   margin-left: -5px;
@@ -507,37 +505,36 @@
   display: inline-block;
   padding: 10px 15px;
   cursor: pointer;
+  word-spacing: -2px;
 }
-.main .flexArea_01 .apply .container .tabs .tab-link_current {
+.main .flexArea_01 .apply .tab_menu .list .is_on {
   background: #fff;
   border: 3px solid #475c9b;
   border-bottom: none;
   color: #475c9b;
 }
-.main .flexArea_01 .apply .container .tabs .tab-link_current::before {
+.main .flexArea_01 .apply .tab_menu .list .is_on::before {
   display: inline-block;
   margin-top: 6px;
-  margin-right: 10px;
+  margin-right: 5px;
   content: "";
   background-image: url(/img/arrow_blue.png);
   width: 6px;
   height: 10px;
 }
-.main .flexArea_01 .apply .container .tab-cont {
-  display: none;
+.main .flexArea_01 .apply .tab_menu .cont_area {
   margin-top: 10px;
   background: #fff;
+  font-size: 15px;
+  line-height: 36px;
 }
-.main .flexArea_01 .apply .container .current {
-  display: block;
-  background: #fff;
-}
-.main .flexArea_01 .apply .container .current li .ellipsis {
+.main .flexArea_01 .apply .tab_menu .cont_area .ellipsis {
   display: inline-block;
   max-width: 348px;
   text-align: left;
-  font-size: 15px;
-  line-height: 36px;
+}
+.main .flexArea_01 .apply .tab_menu .cont_area #tab2 {
+  display: none;
 }
 .main .flexArea_01 .myCourse {
   width: 425px;
@@ -552,16 +549,16 @@
 .main .flexArea_01 .myCourse .title_plus h3 {
   color: #444;
 }
-.main .flexArea_01 .myCourse .container_2 {
+.main .flexArea_01 .myCourse .tab_menu2 {
   min-width: 425px;
   margin: 0 auto;
 }
-.main .flexArea_01 .myCourse .container_2 .tabs {
+.main .flexArea_01 .myCourse .tab_menu2 .list {
   margin-left: 38px;
   margin-bottom: -10px;
   padding: 0;
 }
-.main .flexArea_01 .myCourse .container_2 .tabs li {
+.main .flexArea_01 .myCourse .tab_menu2 .list li {
   border-right: 1px solid #fff;
   min-width: 126px;
   height: 40px;
@@ -574,52 +571,56 @@
   display: inline-block;
   padding: 10px 15px;
   cursor: pointer;
+  word-spacing: -2px;
 }
-.main .flexArea_01 .myCourse .container_2 .tabs li:last-child {
+.main .flexArea_01 .myCourse .tab_menu2 .list li:last-child {
   border-right: none;
 }
-.main .flexArea_01 .myCourse .container_2 .tabs .tab-link_current {
+.main .flexArea_01 .myCourse .tab_menu2 .list .is_on {
+  min-width: 138px;
   border-right: none;
   background-color: #eaeef2;
   border-bottom: none;
   color: #444;
 }
-.main .flexArea_01 .myCourse .container_2 .tabs .tab-link_current::before {
+.main .flexArea_01 .myCourse .tab_menu2 .list .is_on::before {
   display: inline-block;
   margin-top: 6px;
-  margin-right: 10px;
+  margin-right: 5px;
   content: "";
   background-image: url(/img/arrow_gray.png);
   width: 6px;
   height: 10px;
 }
-.main .flexArea_01 .myCourse .container_2 .tab-cont {
-  display: none;
+.main .flexArea_01 .myCourse .tab_menu2 .cont_area2 {
   margin-top: 10px;
   background: #fff;
 }
-.main .flexArea_01 .myCourse .container_2 .tab-cont ul {
+.main .flexArea_01 .myCourse .tab_menu2 .cont_area2 ul {
   padding-top: 10px;
   padding-bottom: 25px;
 }
-.main .flexArea_01 .myCourse .container_2 .tab-cont ul li {
+.main .flexArea_01 .myCourse .tab_menu2 .cont_area2 ul li {
   text-align: left;
   font-size: 15px;
   line-height: 36px;
   display: flex;
 }
-.main .flexArea_01 .myCourse .container_2 .tab-cont ul li .txt_category {
+.main .flexArea_01 .myCourse .tab_menu2 .cont_area2 ul li .txt_category {
   color: #818181;
 }
-.main .flexArea_01 .myCourse .container_2 .tab-cont ul li .txt_white {
+.main .flexArea_01 .myCourse .tab_menu2 .cont_area2 ul li .txt_white {
   width: 270px;
   text-align: left;
   margin-left: 20px;
 }
-.main .flexArea_01 .myCourse .container_2 .current {
+.main .flexArea_01 .myCourse .tab_menu2 .cont {
   display: block;
   padding: 0 35px 0px 35px;
   background: #eaeef2;
+}
+.main .flexArea_01 .myCourse .tab_menu2 #tab4, .main .flexArea_01 .myCourse .tab_menu2 #tab5 {
+  display: none;
 }
 .main .flexArea_01 .notice {
   width: 530px;
