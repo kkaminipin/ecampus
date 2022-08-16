@@ -276,24 +276,17 @@
   justify-content: center;
   padding-top: 50px;
   padding-bottom: 40px;
+  padding-left: 160px;
   min-height: 230px;
 }
 .header nav .navBottom .nav_depth02-list {
+  min-width: 150px;
   height: 172px;
   border-right: 1px solid #e5e5e5;
   padding-left: 10px;
 }
-.header nav .navBottom .nav_depth02-list .plan {
-  padding-right: 35px;
-}
 .header nav .navBottom .nav_depth02-list .courseApply {
   padding-right: 22px;
-}
-.header nav .navBottom .nav_depth02-list .edu {
-  padding-right: 43px;
-}
-.header nav .navBottom .nav_depth02-list .community {
-  padding-right: 75px;
 }
 .header nav .navBottom .nav_depth02-list span {
   font-size: 13.5px;

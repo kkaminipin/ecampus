@@ -322,29 +322,17 @@
                 justify-content: center;
                 padding-top: 50px;
                 padding-bottom: 40px;
+                padding-left: 160px;
                 min-height: 230px;
 
                 &-list {
+                    min-width: 150px;
                     height: 172px;
                     border-right: 1px solid #e5e5e5;
                     padding-left: 10px;
-
-                    .plan {
-                        padding-right: 35px;
-                    }
-
                     .courseApply {
                         padding-right: 22px;
                     }
-
-                    .edu {
-                        padding-right: 43px;
-                    }
-
-                    .community {
-                        padding-right: 75px;
-                    }
-
                     span {
                         font-size: 13.5px;
                         color: #777;
