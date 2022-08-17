@@ -384,8 +384,9 @@
 }
 .main .gray_area .inner .article_01 .content_02 {
   width: 425px;
-  padding: 20px 35px 25px 35px;
+  padding: 20px 35px 25px 34px;
   background: #fff;
+  border: 1px solid #c4c6c5;
 }
 .main .gray_area .inner .article_01 .content_02 .title_plus {
   border-bottom: 1px solid #d8dadb;
@@ -587,6 +588,7 @@
   height: 10px;
 }
 .main .flexArea_01 .myCourse .tab_menu2 .cont_area2 {
+  max-width: 423px;
   margin-top: 10px;
   background: #fff;
 }

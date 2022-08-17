@@ -459,8 +459,9 @@
 
                 .content_02 {
                     width: 425px;
-                    padding: 20px 35px 25px 35px;
+                    padding: 20px 35px 25px 34px;
                     background: #fff;
+                    border: 1px solid #c4c6c5;
 
                     .title_plus {
                         border-bottom: 1px solid #d8dadb;
@@ -705,6 +706,7 @@
                 }
 
                 .cont_area2 {
+                    max-width: 423px;
                     margin-top: 10px;
                     background: #fff;
 
