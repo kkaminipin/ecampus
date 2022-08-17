@@ -651,6 +651,7 @@
 .main .flexArea_01 .notice .notice_list li span {
   font-size: 15px;
   color: #aaa;
+  letter-spacing: 0.2px;
 }
 .main .flexArea_01 .class {
   width: 425px;
@@ -776,6 +777,7 @@ footer .footer_cont .footer_mid .txt_address {
 }
 footer .footer_cont .footer_mid .txt_warn {
   margin-bottom: 25px;
+  word-spacing: -0.7px;
 }
 
 /*# sourceMappingURL=style.css.map */
