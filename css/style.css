@@ -653,7 +653,7 @@
 .main .flexArea_01 .notice .notice_list li span {
   font-size: 15px;
   color: #aaa;
-  letter-spacing: 0.2px;
+  word-spacing: -2px;
 }
 .main .flexArea_01 .class {
   width: 425px;

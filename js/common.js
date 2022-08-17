@@ -9,11 +9,14 @@ for (var i = 0; i < tabList.length; i++) {
         for (var j = 0; j < tabList.length; j++) {
             // 나머지 버튼 클래스 제거
             tabList[j].classList.remove('is_on');
+
             // 나머지 컨텐츠 display:none 처리
             contents[j].style.display = 'none';
         }
+
         // 버튼 관련 이벤트
         this.parentNode.classList.add('is_on');
+
         // 버튼 클릭시 컨텐츠 전환
         activeCont = this.getAttribute('href');
         document.querySelector(activeCont).style.display = 'block';
@@ -24,16 +27,19 @@ for (var i = 0; i < tabList.length; i++) {
 //탭메뉴2
 const tabList2 = document.querySelectorAll('.myCourse .tab_menu2 .list li');
 const contents2 = document.querySelectorAll('.cont_area2 .cont');
-let activeCont2 = '';
+let activeCont2 = ''; 
 
 for (var i = 0; i < tabList2.length; i++) {
     tabList2[i].querySelector('.btn').addEventListener('click', function (e) {
         e.preventDefault();
         for (var j = 0; j < tabList2.length; j++) {
             tabList2[j].classList.remove('is_on');
+
             contents2[j].style.display = 'none';
         }
+
         this.parentNode.classList.add('is_on');
+
         activeCont2 = this.getAttribute('href');
         document.querySelector(activeCont2).style.display = 'block';
     });
