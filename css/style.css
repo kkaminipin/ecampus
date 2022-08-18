@@ -523,7 +523,7 @@
   border-bottom: none;
   color: #475c9b;
 }
-.main .flexArea_01 .apply .tab_menu .list .is_on::before {
+.main .flexArea_01 .apply .tab_menu .list .btn::before {
   display: inline-block;
   margin-top: 6px;
   margin-right: 5px;
