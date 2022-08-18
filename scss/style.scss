@@ -19,7 +19,28 @@
     text-overflow: ellipsis;
 }
 
+.ellipsis03 {
+    white-space: unset;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.ellipsis04 {
+    white-space: unset;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
 .first_txt {
+    display: block;
     font-size: 12.5px;
     color: #997c68;
     font-weight: 600;
@@ -29,6 +50,7 @@
 }
 
 .second_txt {
+    display: block;
     padding-bottom: 21px;
     font-size: 17.5px;
     font-weight: bold;
@@ -133,7 +155,7 @@
         justify-content: center;
         background-image: url(/img/box_beige.jpg);
 
-        >ul {
+        >div {
             margin-right: 10px;
         }
     }
@@ -479,6 +501,7 @@
 
                         .txt_area {
                             .p_01 {
+                                width: 210px;
                                 margin-bottom: 10px;
                                 font-size: 14.5px;
                                 font-weight: bold;
@@ -500,14 +523,14 @@
                                 color: #626262;
                             }
 
-                            .ellipsis {
-                                white-space: unset;
-                                display: block;
-                                word-break: break-word;
-                                display: -webkit-box;
-                                -webkit-line-clamp: 4;
-                                -webkit-box-orient: vertical
-                            }
+                            // .ellipsis {
+                            //     white-space: unset;
+                            //     display: block;
+                            //     word-break: break-word;
+                            //     display: -webkit-box;
+                            //     -webkit-line-clamp: 4;
+                            //     -webkit-box-orient: vertical
+                            // }
                         }
                     }
 
