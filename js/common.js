@@ -43,6 +43,3 @@ for (var i = 0; i < tabList2.length; i++) {
         document.querySelector(activeCont2).style.display = 'block';
     });
 }
-
-
-
